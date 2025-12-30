@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Titulo para el navegador y los buscadores-->
+    <title>HTML</title>
+
+    <!--Descripcion de la pagina para los buscadores-->
+    <meta name="description" content=" Página de ejemplos para clase de HTML" />
+
+    <!--Autor de la Páginaa-->
+    <meta name="author" content="Yelitza" />
+
+    <!--favicon de la pagina-->
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+
+    <!--Codificacion-->
+    <meta charset="utf-8" />
+
+    <!--Para que la web sea responsive-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!--Para algunos navegadores moviles-->
+    <meta name="theme-color" content="#fafafa" />
+  </head>
+
+  <body>
+    
+    <form
+      action="/registrar_cliente"
+      name="registro"
+      method="post"
+      autocomplete="off"
+      enctype="multipart/form-data"
+    >
+      <input type="hidden" name="company" value="conquerblocks" />
+      <p>
+        Nombre:
+        <input type="text" name="nombre" placeholder="Yelitza" />
+      </p>
+      <p>
+        Apellido:
+        <input type="text" name="apellido" placeholder="Espinoza" />
+      </p>
+      <p>
+        Pais:
+        <input type="text" name="pais" placeholder="Venezuela" />
+      </p>
+      <label for="bio">Biografia</label> <br />
+      <textarea name="bio" id="bio" rows="4" cols="50">
+      Mi nombre es Yelitza Espinoza, soy de Venezuela y estoy estudiando HTML y CSS en Conquer Blocks.</textarea >
+
+      </textarea>
+      <br />
+      <button>Enviar</button>
+      <input type="submit" value="Enviar a otro formulario" />
+    </form>
+  </body>
+</html>

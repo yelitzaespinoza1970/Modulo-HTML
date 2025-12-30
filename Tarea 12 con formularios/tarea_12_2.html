@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Titulo para el navegador y los buscadores-->
+    <title>HTML</title>
+
+    <!--Descripcion de la pagina para los buscadores-->
+    <meta name="description" content=" Página de ejemplos para clase de HTML" />
+
+    <!--Autor de la Páginaa-->
+    <meta name="author" content="Yelitza" />
+
+    <!--favicon de la pagina-->
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+
+    <!--Codificacion-->
+    <meta charset="utf-8" />
+
+    <!--Para que la web sea responsive-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!--Para algunos navegadores moviles-->
+    <meta name="theme-color" content="#fafafa" />
+  </head>
+
+  <body>
+    <header>
+      <p><a href="index.html"> Volver atras</a></p>
+      <hr />
+      <h1>Tarea 12.2: formularios</h1>
+    </header>
+
+    <main>
+      <h2>Formulario Estructurado</h2>
+      <form action="" method="get">
+        <fieldset>
+          <legend>Datos Personales</legend>
+          <p>
+            <label for="name">Nombre:</label> <br />
+            <input type="text" name="nombre" id="name" /><br />
+          </p>
+          <p>
+            <label for="lastname">Apellido:</label> <br />
+            <input type="text" name="apellido" id="lastname" /><br />
+          </p>
+          <p>
+            <label for="dni">DNI</label> <br />
+            <input type="text" name="dni" id="dni" maxlength="9" size="9" />
+          </p>
+        </fieldset>
+
+        <fieldset>
+          <legend>Datos de Conexion</legend>
+          <p>
+            <label for="usuario">Nombre de Usuario:</label> <br />
+            <input type="text" name="usuario" id="usuario" /><br />
+          </p>
+          <p>
+            <label for="password1">Contrasena:</label> <br />
+            <input
+              type="password"
+              name="password1"
+              id="password1"
+              maxlength="15"
+            />
+          </p>
+          <p>
+            <label for="password2">Repite Contrasena:</label> <br />
+            <input
+              type="password"
+              name="password2"
+              id="password2"
+              maxlength="15"
+            />
+          </p>
+        </fieldset>
+        <button>Enviar</button>
+      </form>
+    </main>
+  </body>
+</html>

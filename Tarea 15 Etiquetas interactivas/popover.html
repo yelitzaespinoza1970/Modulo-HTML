@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Titulo para el navegador y los buscadores-->
+    <title>HTML</title>
+
+    <!--Descripcion de la pagina para los buscadores-->
+    <meta name="description" content=" Página de ejemplos para clase de HTML" />
+
+    <!--Autor de la Páginaa-->
+    <meta name="author" content="Yelitza" />
+
+    <!--favicon de la pagina-->
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+
+    <!--Codificacion-->
+    <meta charset="utf-8" />
+
+    <!--Para que la web sea responsive-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!--Para algunos navegadores moviles-->
+    <meta name="theme-color" content="#fafafa" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Clase 15: Etiquetas Interactivas</h1>
+      <p><a href="index.html"> Volver atras</a></p>
+      <hr />
+    </header>
+
+    <main>
+      <h2>Ejemplo de atributo popover</h2>
+      <button popovertarget="popover1">Abrir Popover</button>
+
+      <div id="popover1" popover>
+        <summary>Mas detalles</summary>
+        <section>
+          <h2>Ejemplo numero 1</h2>
+          <p>Este párrafo está visible.</p>
+        </section>
+        <section>
+          <h2>Ejemplo numero 2</h2>
+          <p>Este párrafo está oculto.</p>
+        </section>
+
+        <button popovertarget="popover1" popoverclose>Cerrar</button>
+      </div>
+    </main>
+  </body>
+</html>

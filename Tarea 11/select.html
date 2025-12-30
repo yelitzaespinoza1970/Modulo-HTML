@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Titulo para el navegador y los buscadores-->
+    <title>HTML</title>
+
+    <!--Descripcion de la pagina para los buscadores-->
+    <meta name="description" content=" Página de ejemplos para clase de HTML" />
+
+    <!--Autor de la Páginaa-->
+    <meta name="author" content="Yelitza" />
+
+    <!--favicon de la pagina-->
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+
+    <!--Codificacion-->
+    <meta charset="utf-8" />
+
+    <!--Para que la web sea responsive-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!--Para algunos navegadores moviles-->
+    <meta name="theme-color" content="#fafafa" />
+  </head>
+
+  <body>
+    <header>
+      <p><a href="index.html"> Volver atras</a></p>
+      <hr />
+      <h1>Ejercicio 11 - Formularios II</h1>
+    </header>
+
+    <main>
+      <h2>Ejemplos de Radio</h2>
+
+      <form action="#" method="get">
+        <p>Seleccione el color de los zapatos</p>
+
+        <div>
+          <input type="radio" name="color" value="negro" id="black" />
+          <label for="black">Negro</label><br />
+          <input type="radio" name="color" value="blanco" id="white" />
+          <label for="white">Blanco</label><br />
+          <input type="radio" name="color" value="rojo" id="red" />
+          <label for="red">Rojo</label><br />
+          <input type="radio" name="color" value="marron" id="brown" />
+          <label for="brown">Marron</label><br />
+        </div>
+
+        <p>
+          <label for="size">Seleccione la talla</label>
+          <select name="size" , id="size" required>
+            <option value="">-</option>
+            <option value="39">Talla 39</option>
+            <option value="40">Talla 40</option>
+            <option value="41">Talla 41</option>
+            <option value="42">Talla 42</option>
+            <option value="43">Talla 43</option>
+          </select>
+          <br />
+        </p>
+        <button>Enviar</button>
+      </form>
+    </main>
+  </body>
+</html>

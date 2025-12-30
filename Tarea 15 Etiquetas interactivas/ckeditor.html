@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Titulo para el navegador y los buscadores-->
+    <title>HTML</title>
+
+    <!--Descripcion de la pagina para los buscadores-->
+    <meta name="description" content=" Página de ejemplos para clase de HTML" />
+
+    <!--Autor de la Páginaa-->
+    <meta name="author" content="Yelitza" />
+
+    <!--favicon de la pagina-->
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+
+    <!--Codificacion-->
+    <meta charset="utf-8" />
+
+    <!--Para que la web sea responsive-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!--Para algunos navegadores moviles-->
+    <meta name="theme-color" content="#fafafa" />
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.ckeditor.com/ckeditor5/38.0.1/classic/ckeditor.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>Clase 15: Etiquetas Interactivas</h1>
+      <p><a href="index.html"> Volver atras</a></p>
+      <hr />
+    </header>
+
+    <main>
+      <h2>Ejemplo de atributo Ckeditor</h2>
+      <p>
+        Descripcion <br />
+        <textarea
+          name="editor"
+          id="description"
+          cols="100"
+          rows="10"
+        ></textarea>
+      </p>
+    </main>
+    <script>
+      ClassicEditor.create(document.querySelector("#description")).catch(
+        (error) => {
+          console.error(error);
+        }
+      );
+    </script>
+  </body>
+</html>

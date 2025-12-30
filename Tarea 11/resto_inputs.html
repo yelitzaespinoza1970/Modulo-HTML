@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Titulo para el navegador y los buscadores-->
+    <title>HTML</title>
+
+    <!--Descripcion de la pagina para los buscadores-->
+    <meta name="description" content=" Página de ejemplos para clase de HTML" />
+
+    <!--Autor de la Páginaa-->
+    <meta name="author" content="Yelitza" />
+
+    <!--favicon de la pagina-->
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+
+    <!--Codificacion-->
+    <meta charset="utf-8" />
+
+    <!--Para que la web sea responsive-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!--Para algunos navegadores moviles-->
+    <meta name="theme-color" content="#fafafa" />
+  </head>
+
+  <body>
+    <header>
+      <p><a href="index.html"> Volver atras</a></p>
+      <hr />
+      <h1>Ejercicio 11 - Formularios II</h1>
+    </header>
+
+    <main>
+      <h2>Resto de Inputs</h2>
+
+      <form action="#" method="get">
+        <div>
+          <h3>Input tipo search</h3>
+          <p><label for="search">Selecciona tu Busqueda</label></p>
+          <input type="search" name="q" placeholder="Buscar" id="search" />
+        </div>
+        <div>
+          <h3>Input tipo color</h3>
+          <p>
+            <label for="color">Selecciona tu Color</label><br />
+            <input type="color" name="color" id="color" />
+          </p>
+        </div>
+        <div>
+          <h3>Input tipo date</h3>
+          <p>
+            Selecciona tu fecha de nacimiento <br />
+            <input type="date" name="date_birth" />
+          </p>
+        </div>
+
+        <div>
+          <h3>Input tipo time</h3>
+          <p>
+            Selecciona la hora de la reunion <br />
+            <input type="time" name="meeting_time" />
+          </p>
+        </div>
+        <div>
+          <h3>Input tipo datetime-local</h3>
+          <p>
+            Selecciona la fecha y hora de nacimiento<br />
+            <input type="datetime-local" name="date_birth" />
+          </p>
+        </div>
+        <div>
+          <h3>Input tipo month</h3>
+          <p>
+            Selecciona el mes<br />
+            <input type="month" name="month" />
+          </p>
+        </div>
+        <div>
+          <h3>Input tipo week</h3>
+          <p>
+            Selecciona la semana<br />
+            <input type="week" name="week" />
+          </p>
+        </div>
+        <div>
+          <h3>Input tipo tel</h3>
+          <p>
+            Introduce tu numero de telefono<br />
+            <input type="tel" name="phone" />
+          </p>
+        </div>
+        <div>
+          <h3>Input tipo range</h3>
+          <p>
+            Introduce tu experience en HTML<br />
+            <input type="range" min="0" max="10" name="experiencia" />
+          </p>
+        </div>
+
+        <div>
+          <button>Enviar</button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

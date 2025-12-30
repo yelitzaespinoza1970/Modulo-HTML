@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Titulo para el navegador y los buscadores-->
+    <title>HTML</title>
+
+    <!--Descripcion de la pagina para los buscadores-->
+    <meta name="description" content=" Página de ejemplos para clase de HTML" />
+
+    <!--Autor de la Páginaa-->
+    <meta name="author" content="Yelitza" />
+
+    <!--favicon de la pagina-->
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+
+    <!--Codificacion-->
+    <meta charset="utf-8" />
+
+    <!--Para que la web sea responsive-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!--Para algunos navegadores moviles-->
+    <meta name="theme-color" content="#fafafa" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Clase 15: Etiquetas Interactivas</h1>
+      <p><a href="index.html"> Volver atras</a></p>
+      <hr />
+    </header>
+
+    <main>
+      <h2>Ejemplo de atributo datalist</h2>
+      <datalist id="weblang">
+        <option value="1">HTML</option>
+        <option value="2">CSS</option>
+        <option value="3">JavaScript</option>
+        <option value="4">Python</option>
+        <option value="5">Java</option>
+      </datalist>
+      <p>
+        Indica tu lenguaje de programación favorito:
+        <input type="text" list="weblang" name="language" />
+      </p>
+    </main>
+  </body>
+</html>

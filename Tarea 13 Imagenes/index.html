@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Titulo para el navegador y los buscadores-->
+    <title>HTML</title>
+
+    <!--Descripcion de la pagina para los buscadores-->
+    <meta name="description" content=" Página de ejemplos para clase de HTML" />
+
+    <!--Autor de la Páginaa-->
+    <meta name="author" content="Yelitza" />
+
+    <!--favicon de la pagina-->
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+
+    <!--Codificacion-->
+    <meta charset="utf-8" />
+
+    <!--Para que la web sea responsive-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!--Para algunos navegadores moviles-->
+    <meta name="theme-color" content="#fafafa" />
+  </head>
+
+  <body>
+    <header>
+      <p><a href="index.html"> Volver atras</a></p>
+      <hr />
+      <h1>Clase 13: Imagenes</h1>
+    </header>
+
+    <nav>
+      <h2>Imagenes en la Web</h2>
+
+      <h2>Ejemplo de imagen en el mismo directorio</h2>
+      <figure>
+        <figcaption>Figura 1: Imagen de la tierra girando</figcaption>
+        <img src="Rotating_earth_(large).gif" alt="Ejemplo de imagen" />
+      </figure>
+
+      <h2>Ejemplo de imagen ubicada en otro directorio</h2>
+      <img src="./ejemplo/elsol.gif" alt="Ejemplo de imagen remota" />
+      <img loading="lazy" src="https://picsum.photos/seed/xx/800/300" alt="" />
+      <img loading="lazy" src="https://picsum.photos/seed/xxx/800/300" alt="" />
+      <img
+        loading="lazy"
+        src="https://picsum.photos/seed/xxxx/800/300"
+        alt=""
+      />
+      <ul>
+        <li><a href="./ejemplo/servicio.html">ir a subdirectorio</a></li>
+      </ul>
+    </nav>
+  </body>
+</html>

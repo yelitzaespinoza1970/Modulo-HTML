@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Conquer Academy</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta
+      name="description"
+      content="Conquer Academy is a platform for learning and development."
+    />
+
+    <meta property="og:title" content="Conquer Academy" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:image:alt" content="" />
+
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="icon.png" />
+
+    <link rel="manifest" href="site.webmanifest" />
+    <meta name="theme-color" content="#fafafa" />
+  </head>
+  <header>
+    <figure>
+      <img width="150px" src="img/logo.png" alt="Conquer Academy Logo" />
+    </figure>
+    <nav>
+      <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="quienes_somos.html">Quienes somos</a></li>
+          <li><a href="cursos.html">Cursos</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="registro.html">Registro</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li>Contacto</li>
+        </ul>
+    </nav>
+  </header>
+
+  <body>
+    <main>
+      <section>
+        <h1>Contacta con nosotros</h1>
+        <p>
+          Contacta con nosotros y haznos la consulta que necesites.
+        </p>
+        
+        <form action="/submit_contact" method="post" enctype="multipart/form-data">
+          <label for="name">Nombre Completo:</label>
+          <input type="text"  name="name" id="name" /><br /><br />
+
+          <label for="email">Correo Electrónico:</label>
+          <input type="email" id="email" name="email" required /><br /><br />
+
+          <label for="comment">Comentario:</label><br />
+          <textarea id="comment" name="comment" rows="4" cols="50"></textarea
+          ><br /><br />
+
+          <button type="submit">Enviar</button>
+          <input type="reset" value="Borrar formulario" />
+        </form>
+      </section>
+
+      <section>
+        <h2>Puedes encontrarnos aqui</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3180.269218733647!2d-3.615442641990796!3d37.14629756282965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd71fb708efce6d5%3A0x97582183dc842b46!2sCentro%20Comercial%20Parque%20Nevada%2C%2018100%2C%20Granada%2C%20Espa%C3%B1a!5e0!3m2!1ses!2sus!4v1767048142803!5m2!1ses!2sus" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </main>
+
+    <footer>
+    <p>
+      &copy; 2023 Conquer Crypto 2023.
+      <a href="aviso_legal.html">Aviso Legal</a>
+    </p>
+  </footer>
+  </body>
+  
+</html>

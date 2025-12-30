@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Titulo para el navegador y los buscadores-->
+    <title>HTML</title>
+
+    <!--Descripcion de la pagina para los buscadores-->
+    <meta name="description" content=" Página de ejemplos para clase de HTML" />
+
+    <!--Autor de la Páginaa-->
+    <meta name="author" content="Yelitza" />
+
+    <!--favicon de la pagina-->
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+
+    <!--Codificacion-->
+    <meta charset="utf-8" />
+
+    <!--Para que la web sea responsive-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!--Para algunos navegadores moviles-->
+    <meta name="theme-color" content="#fafafa" />
+  </head>
+
+  <body>
+    <header>
+      <p><a href="index.html"> Volver atras</a></p>
+      <hr />
+      <h1>Tareas Clase 12: formularios</h1>
+    </header>
+
+    <main>
+      <h2>Formulario de Regitro - Mi Web</h2>
+      <form action="" method="get">
+        <p>
+          <label for="name">Nombre:</label>
+          <input type="text" name="name" id="name" maxlength="50"/><br />
+        </p>
+        <p>
+          <label for="lastname">Apellidos:</label>
+          <input type="text" name="apellidos" id="lastname" maxlength="50" /><br />
+        </p>
+        <p>
+          Sexo:<br />
+
+          <input type="radio" name="sexo" value="h" id="man" />
+          <label for="man">Hombre</label><br />
+          <input type="radio" name="sexo" value="m" id="woman" />
+          <label for="woman">Mujer</label><br />
+        </p>
+
+        <p>
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" />
+        </p>
+
+        
+          <p>
+            <label for="poblacion">Poblacion:</label>
+            <select name="poblacion" id="poblacion">
+              <option value="">-</option>
+              <option value="alicante">Alicante</option>
+              <option value="madrid">Madrid</option>
+              <option value="sevilla">Sevilla</option>
+              <option value="valencia">Valencia</option>
+          </p>
+        </select> <br />
+
+        <p>
+          <label for="descripcion">Descripcion:</label><br />
+          <textarea name="descripcion" id="descripcion" cols="30" rows="5" placeholder="Escriba aqui su consulta "></textarea>
+        </p>
+        
+        <p>
+          <input type="checkbox" name="news" id="news" checked/>
+          <label for="news"
+            >Deseo recibir informacion sobre novedades y ofertas
+          </label>
+        </p>
+
+          <p>
+            <input type="checkbox" name="privacidad" id="privacy" required />
+            <label for="privacy"
+              >He leido y acepto la politica de privacidad
+            </label>
+          </p>
+          
+        <button>Enviar</button>
+      </form>
+    </main>
+  </body>
+</html>
